@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sanjana Verma | Portfolio Details</title>
+  <meta name="description" content="Detailed portfolio and resume information for Sanjana Verma." />
+  <meta property="og:title" content="Sanjana Verma | Portfolio Details" />
+  <meta property="og:description" content="Detailed portfolio and resume information for Sanjana Verma." />
+  <meta property="og:image" content="assets/sanjana-verma.jpg" />
+  <meta property="og:type" content="website" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="scroll-progress"></div>
+  <canvas id="neural-bg" aria-hidden="true"></canvas>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Sanjana Verma home">
+      <span>SV</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="index.html">Profile</a>
+      <a href="details.html" class="active">Details</a>
+      <a class="nav-icon" href="mailto:sanjanaverma12004@gmail.com" aria-label="Email Sanjana Verma">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 6.5h16v11H4z"></path>
+          <path d="m4.5 7 7.5 6 7.5-6"></path>
+        </svg>
+      </a>
+    </nav>
+  </header>
+
+  <main class="details-main">
+    <section class="details-hero reveal">
+      <div class="intro-flip-card" tabindex="0" aria-label="Flip profile introduction card">
+        <div class="intro-flip-inner">
+          <div class="intro-face intro-front">
+            <p class="eyebrow">About Me</p>
+            <h1>CSE (AI) Graduate</h1>
+            <span>Hover or tap to read intro</span>
+          </div>
+          <div class="intro-face intro-back">
+            <p class="eyebrow">Quick Intro</p>
+            <p>
+              I am a B.Tech CSE graduate specializing in Artificial Intelligence.
+              My work includes PySpark data pipelines, SQL-based validation, recommender
+              systems, and real-time computer vision research.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="contact-strip">
+        <a href="mailto:sanjanaverma12004@gmail.com">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M4 6.5h16v11H4z"></path>
+            <path d="m4.5 7 7.5 6 7.5-6"></path>
+          </svg>
+          sanjanaverma12004@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/sanjana-verma-73bb36316">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7.5 10v8"></path>
+            <path d="M7.5 7v.1"></path>
+            <path d="M12 18v-4.4c0-2.2 3.5-2.4 3.5 0V18"></path>
+            <path d="M4 4h16v16H4z"></path>
+          </svg>
+          LinkedIn
+        </a>
+      </div>
+    </section>
+
+    <section class="resume-layout">
+      <aside class="profile-sidebar reveal">
+        <div class="mini-logo">
+          <span>SV</span>
+          <strong>CSE AI</strong>
+        </div>
+        <h2>Profile Snapshot</h2>
+        <p>CSE (AI) • Data Engineering • Applied ML</p>
+        <div class="sidebar-block">
+          <h3>Education</h3>
+          <p>B.Tech - CSE (Artificial Intelligence)</p>
+          <p>Government Engineering College, Munger</p>
+          <p>2022 - 2026</p>
+          <p>CGPA: 8.57/10.0</p>
+        </div>
+        <div class="sidebar-block">
+          <h3>Certifications</h3>
+          <p>NPTEL - OOPs Silver Medalist (76%)</p>
+          <p>Cisco - Python Certification</p>
+        </div>
+      </aside>
+
+      <div class="resume-content">
+        <section class="resume-section reveal">
+          <h2>Professional Summary</h2>
+          <p>
+            B.Tech CSE (AI) graduate skilled in Python, SQL, PySpark, Databricks, ETL,
+            data pipeline management, reconciliation, and exception analysis. Migrated 40+ legacy
+            carrier ETL scripts to PySpark on Databricks with zero data loss. Researcher with SCRBM
+            paper under review at Journal of Ambient Intelligence and Humanized Computing (JAIHC), Q1,
+            and Women Safety AI surveillance paper submitted to IJPE.
+          </p>
+        </section>
+
+        <section class="resume-section reveal">
+          <h2>Carrier Data Engineering</h2>
+          <p class="muted">Financial Services & Insurance Domain</p>
+          <ul class="accent-list">
+            <li>Migrated 40+ carrier-specific Python ETL scripts to PySpark on Databricks with zero data loss.</li>
+            <li>Built separate MySQL legacy tables per carrier for clean migration and validation workflows.</li>
+            <li>Reconciled raw vs. transformed data using a Raw = Output + Exception framework.</li>
+            <li>Debugged schema mismatches, pipeline failures, and job breakdowns to improve reliability.</li>
+            <li>Automated carrier ingestion scripts and maintained code using Git for rollback capability.</li>
+          </ul>
+        </section>
+
+        <section class="resume-section reveal">
+          <h2>Research Projects</h2>
+          <div class="timeline">
+            <article>
+              <span></span>
+              <div class="research-flip-card" tabindex="0" aria-label="Flip card: Semantic-Collaborative RBM for Recommender Systems">
+                <div class="research-flip-inner">
+                  <div class="research-face research-front">
+                    <p class="eyebrow">Research Project</p>
+                    <h3>Semantic-Collaborative RBM for Recommender Systems</h3>
+                    <p class="research-stat">HR@10 = 0.7446</p>
+                    <span>Hover or tap to read more</span>
+                  </div>
+                  <div class="research-face research-back">
+                    <h3>Semantic-Collaborative RBM for Recommender Systems</h3>
+                    <p>
+                      Engineered SCRBM and SCRBM+, hybrid ML architectures combining RBM collaborative
+                      filtering with Sentence-BERT embeddings. Benchmarked across MovieLens 100K, 1M, 10M,
+                      and Yelp2020.
+                    </p>
+                    <p>
+                      Ranked 1st among 10 SOTA models, including HR@10 = 0.7446 on MovieLens 1M,
+                      +18.1% over LightGCN with p &lt; 0.001.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article>
+              <span></span>
+              <div class="research-flip-card" tabindex="0" aria-label="Flip card: Women Safety AI Surveillance System">
+                <div class="research-flip-inner">
+                  <div class="research-face research-front">
+                    <p class="eyebrow">Research Project</p>
+                    <h3>Women Safety AI Surveillance System</h3>
+                    <p class="research-stat">mAP@50 = 93.5%</p>
+                    <span>Hover or tap to read more</span>
+                  </div>
+                  <div class="research-face research-back">
+                    <h3>Women Safety AI Surveillance System</h3>
+                    <p>
+                      Built a 4-stage real-time pipeline using YOLOv11l, ByteTrack, R(2+1)D-18,
+                      and XGBoost-SHAP, achieving mAP@50 = 93.5% and 81 FPS on GPU.
+                    </p>
+                    <p>
+                      Engineered the AURA risk-fusion module for Safe, Suspicious, and Critical alerts,
+                      with 5-fold CV F1 = 0.913 and a full-stack monitoring dashboard.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="resume-section reveal">
+          <h2>Technical Skills</h2>
+          <div class="skill-cloud">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>C</span>
+            <span>C++</span>
+            <span>MySQL</span>
+            <span>MSSQL Server</span>
+            <span>PySpark</span>
+            <span>Databricks</span>
+            <span>ETL</span>
+            <span>Data Validation</span>
+            <span>Exception Analysis</span>
+            <span>Power BI</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>PyTorch</span>
+            <span>YOLOv11</span>
+            <span>XGBoost</span>
+            <span>SHAP</span>
+            <span>Git</span>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <button id="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 19V5"></path>
+      <path d="m5 12 7-7 7 7"></path>
+    </svg>
+  </button>
+
+  <footer class="footer">
+    <p>Available for AI, data engineering, analytics, and research opportunities.</p>
+    <a href="index.html">Back to profile</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
