@@ -879,35 +879,6 @@ li {
   margin-top: 22px;
 }
 
-.featured-research {
-  padding: 20px 0 96px;
-}
-
-.featured-research .research-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px;
-  margin-top: 34px;
-}
-
-.featured-research .research-flip-card {
-  min-height: 220px;
-}
-
-.featured-research .research-flip-inner {
-  min-height: 220px;
-}
-
-.research-cta {
-  margin-top: 30px;
-}
-
-@media (max-width: 860px) {
-  .featured-research .research-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .profile-sidebar {
   position: sticky;
   top: 90px;
